@@ -1,0 +1,250 @@
+window.blueprint = {
+	"width": 728,
+	"height": 90,
+	"images": [
+		"cta.png",
+		"cta_2.png",
+		"cta_hover.png",
+		"txt_1.png",
+		"txt_2.png",
+		"logo_1.png",
+		"logo_2.png",
+		"analytics.png"
+	],
+	"elements": {
+		"stage": {
+			"parent": "banner",
+			"id": "stage",
+			"retina": false,
+			"left": 0,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 728,
+			"height": 90
+		},
+		"bg": {
+			"parent": "banner",
+			"id": "bg",
+			"retina": false,
+			"left": 0,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 728,
+			"height": 90,
+			"backgroundColor": "#90B8DC"
+		},
+		"solid": {
+			"parent": "banner",
+			"id": "solid",
+			"retina": false,
+			"left": 0,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 728,
+			"height": 90,
+			"backgroundColor": "#E3AD90"
+		},
+		"cta": {
+			"parent": "banner",
+			"id": "cta",
+			"retina": true,
+			"left": -5.5,
+			"top": 29,
+			"safeArea": 16,
+			"lineHeight": 16.64,
+			"backgroundImage": "cta.png",
+			"width": 172,
+			"height": 68
+		},
+		"cta_2": {
+			"parent": "banner",
+			"id": "cta_2",
+			"retina": true,
+			"left": -5.5,
+			"top": 29,
+			"safeArea": 16,
+			"lineHeight": 16.64,
+			"backgroundImage": "cta_2.png",
+			"width": 172,
+			"height": 68
+		},
+		"cta_hover": {
+			"parent": "banner",
+			"id": "cta_hover",
+			"retina": true,
+			"left": -5.5,
+			"top": 29,
+			"safeArea": 16,
+			"lineHeight": 16.64,
+			"backgroundImage": "cta_hover.png",
+			"width": 172,
+			"height": 68
+		},
+		"txt_1": {
+			"parent": "banner",
+			"id": "txt_1",
+			"retina": true,
+			"left": 152.5,
+			"top": 7.5,
+			"safeArea": 19.5,
+			"lineHeight": 21.450000000000003,
+			"backgroundImage": "txt_1.png",
+			"width": 274,
+			"height": 75
+		},
+		"txt_2": {
+			"parent": "banner",
+			"id": "txt_2",
+			"retina": true,
+			"left": 147,
+			"top": -1,
+			"safeArea": 24,
+			"lineHeight": 26.880000000000003,
+			"backgroundImage": "txt_2.png",
+			"width": 229,
+			"height": 93
+		},
+		"logo_1": {
+			"parent": "banner",
+			"id": "logo_1",
+			"retina": true,
+			"left": 0,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"backgroundImage": "logo_1.png",
+			"width": 109,
+			"height": 41
+		},
+		"logo_2": {
+			"parent": "banner",
+			"id": "logo_2",
+			"retina": true,
+			"left": 0,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"backgroundImage": "logo_2.png",
+			"width": 109,
+			"height": 41
+		},
+		"top": {
+			"parent": "banner",
+			"id": "top",
+			"retina": false,
+			"left": 0,
+			"top": -10,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 728,
+			"height": 10
+		},
+		"bottom": {
+			"parent": "banner",
+			"id": "bottom",
+			"retina": false,
+			"left": 0,
+			"top": 90,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 728,
+			"height": 10
+		},
+		"left": {
+			"parent": "banner",
+			"id": "left",
+			"retina": false,
+			"left": -10,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 10,
+			"height": 90
+		},
+		"right": {
+			"parent": "banner",
+			"id": "right",
+			"retina": false,
+			"left": 728,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 10,
+			"height": 90
+		},
+		"analytics": {
+			"parent": "banner",
+			"id": "analytics",
+			"retina": true,
+			"left": 437,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"backgroundImage": "analytics.png",
+			"width": 291,
+			"height": 90
+		},
+		"graph_2": {
+			"parent": "banner",
+			"id": "graph_2",
+			"retina": false,
+			"left": 505,
+			"top": 62,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 23,
+			"height": 10
+		},
+		"graph_1": {
+			"parent": "banner",
+			"id": "graph_1",
+			"retina": false,
+			"left": 506,
+			"top": 13,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 23,
+			"height": 18
+		},
+		"number_2": {
+			"parent": "banner",
+			"id": "number_2",
+			"retina": false,
+			"left": 449,
+			"top": 66,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 46,
+			"height": 18
+		},
+		"number_1": {
+			"parent": "banner",
+			"id": "number_1",
+			"retina": false,
+			"left": 448,
+			"top": 21,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 53,
+			"height": 16
+		}
+	},
+	"settings": {
+		"filename": "EN_Analytics_728x90_copy-2_color-6",
+		"language": "EN",
+		"feature": "Analytics",
+		"size": "728x90",
+		"copyVersion": "copy-2",
+		"color": "color-6",
+		"index": "7",
+		"copy": {
+			"txt_1": "Understand what, when, and where they’re watching.",
+			"txt_2": "All your analytics in one place.",
+			"cta": "Get started"
+		},
+		"fileType": "html"
+	}
+};
